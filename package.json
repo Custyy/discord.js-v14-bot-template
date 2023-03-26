@@ -1,0 +1,17 @@
+{
+  "name": "discord-js-v14",
+  "version": "1.0.0",
+  "description": "Discord.js v14 Bot Template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "developer": "Custy#0417",
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "mongoose": "^5.13.7",
+    "moment": "^2.29.3",
+    "moment-duration-format": "^2.3.2"
+  }
+}
