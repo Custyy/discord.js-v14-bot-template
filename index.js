@@ -29,7 +29,7 @@ client.on('ready', () => {
     client.user.setPresence({ activities: [{ name: `${Discord.version} Bot Template - Custy`, type: Discord.ActivityType.Playing }] })
 })
 
-client.login(config.token).then(() => {
+client.login(config.bot.token).then(() => {
     console.log(`${chalk.green(` [ ${client.user.username} ]:`)} Sistem kullanıma hazır. (${client.guilds.cache.size} sunucu, ${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0).toLocaleString()} kullanıcı)`)
 }).catch(() => {
     console.log(`${chalk.green(` [ ! ]:`)} Botunuzun tokenini kontrol edin.`)
