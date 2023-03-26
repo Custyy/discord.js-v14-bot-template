@@ -17,7 +17,7 @@ fs.readdir('./commands/', (Error, Files) => {
     console.log(`${Files.length} Komut Yüklenecek!`)
     Files.forEach(Pepe => {
         let Props = require(`./commands/${Pepe}`)
-        console.log(` ${chalk.yellow('[]')} Yüklenen Komut: ${Props.help.name}.`)
+        console.log(`${chalk.yellow(' [ Command Loader ]:')} Yüklenen Komut: ${Props.help.name}.`)
         client.commands.set(Props.help.name, Props)
         Props.conf.aliases.forEach(Alias => {
             client.aliases.set(Alias, Props.help.name)
