@@ -30,7 +30,7 @@ client.on('ready', () => {
 })
 
 client.login(config.bot.token).then(() => {
-    console.log(`${chalk.green(` [ ${client.user.username} ]:`)} Sistem kullanıma hazır. (${client.guilds.cache.size} sunucu, ${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0).toLocaleString()} kullanıcı)`)
+    console.log(`${chalk.green(` [ ${client.user.username} ]:`)} Sistem kullanıma hazır.`)
 }).catch(() => {
     console.log(`${chalk.green(` [ ! ]:`)} Botunuzun tokenini kontrol edin.`)
     process.exit(0)
