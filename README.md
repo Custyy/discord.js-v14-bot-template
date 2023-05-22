@@ -10,6 +10,5 @@ Discord.JS kütüphanesinin 14.8.0 sürümünde yazılmış, MongoDB veri tabanl
 
 Projeye yıldız vermeyi unutmayın. İyi kullanımlar.
 
-[YouTube Channel](https://youtube.com/@CustyTheDeveloper)<br>
-[Discord Server](https://discord.gg/fNksSHtUka)<br>
-[RiseRuins Discord Server](https://discord.gg/s2sdcwckpf)
+[YouTube Kanalım](https://youtube.com/@CustyTheDeveloper)<br>
+[Discord Sunucum](https://discord.gg/fNksSHtUka)<br>
