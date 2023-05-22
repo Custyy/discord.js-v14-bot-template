@@ -5,6 +5,7 @@ Discord.JS kütüphanesinin 14.8.0 sürümünde yazılmış, MongoDB veri tabanl
 - `config.js` dosyasını doldurun.
 - Konsola `npm i` yazın.
 - Konsola `node .` yazın.
+
 ##İşte bu kadar!
 
 Projeye yıldız vermeyi unutmayın. İyi kullanımlar.
