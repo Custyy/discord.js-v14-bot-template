@@ -4,7 +4,7 @@ exports.run = async (client, message, args) => {
 
   if (!config.bot.owner.includes(message.author.id)) return
   try {
-    let codein = args.join(" ")
+    let codein = args.join(' ')
     let code = eval(codein)
     if (codein.length < 1) return message.channel.send({ content: `Lütfen çalıştırmak istediğiniz kod bloğunu yazın.` }).then(message => setTimeout(() => message.delete(), 5000))
     if (codein == 'client.token') return message.channel.send({ content: `Çalıştırdığınız kod bloğu zararlı gibi gözüküyor.` }).then(message => setTimeout(() => message.delete(), 5000))

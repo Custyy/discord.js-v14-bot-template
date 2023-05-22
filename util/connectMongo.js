@@ -9,6 +9,6 @@ module.exports = async (MONGO_URL) => {
     }).then(() => {
         console.log(`${chalk.green(' [ MongoDB ]:')} Database Başarıyla Bağlandı.`)
     }).catch(err => {
-        console.log(`${chalk.red(' [ MongoDB ]:')} Database Bağlantısı Kurulamadı.`)
+        console.log(`${chalk.red(' [ MongoDB ]:')} Database Bağlantısı Kurulamadı. ${err}`)
     })
 }
