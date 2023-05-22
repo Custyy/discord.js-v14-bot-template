@@ -6,7 +6,7 @@ Discord.JS kütüphanesinin 14.8.0 sürümünde yazılmış, MongoDB veri tabanl
 - Konsola `npm i` yazın.
 - Konsola `node .` yazın.
 
-##İşte bu kadar!
+## İşte bu kadar!
 
 Projeye yıldız vermeyi unutmayın. İyi kullanımlar.
 
