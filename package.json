@@ -1,0 +1,18 @@
+{
+  "name": "discord.js-v14-bot-template",
+  "version": "1.0.0",
+  "description": "Discord.JS V14 Boş Altyapı",
+  "main": "index.js",
+  "author": "@fullstackdeveloper",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "discord.js": "^14.15.3",
+    "moment": "^2.29.3",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^7.4.0"
+  }
+}
