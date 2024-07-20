@@ -50,6 +50,5 @@ module.exports = {
 
 - Node.js: v20.11.1 or higher
 - Discord.js: v14.15.3 or higher
-- Chalk: v4.0.0 or v4.1.2
 
 # [YouTube](https://youtube.com/@Custyy) | [Discord](https://discord.gg/jMJjHUHjQZ)
